@@ -25,7 +25,7 @@ function renameBatch(){
   done
 }
 
-if [ -d ${TARDIR} ];then
+if [ -d ${TARDIR} ]; then
   echo "The ${TARDIR} directory is exist."
   exit 0;
 elif [ -z $1 ]; then
